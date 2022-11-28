@@ -23,9 +23,14 @@
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
 
-$name = 'brad';
+$name = 'Brad';
 $age = 46 ;
 $has_kids = false; 
 $cash_on_hand = 20.75;
 
-var_dump( $has_kids); 
+// echo $name . ' is ' . $age . ' years old';
+// echo "${name} is ${age} years old";
+// var_dump( '5' + '5');
+define('HOST', 'localhost'); // const
+define('DB_NAME' , 'dev_db');
+echo HOST; 
